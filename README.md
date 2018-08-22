@@ -1,6 +1,7 @@
 # Clear Measure Interview
 Interview Assignment from Clear Measure
 
+## Code
 A small library with a class used for counting up
 
 All functions return an IEnumerable of strings
@@ -35,3 +36,5 @@ For example, if we have the following usage:
 
 Once the count gets to 12, it will print `Three Four`
 
+## Building
+Run the `build.bat` file to restore nuget packages, build the source and run the unit tests.
