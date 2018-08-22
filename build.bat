@@ -1,2 +1,2 @@
 @echo off
-msbuild ClearMeasure.sln /t:Clean;Build /v:minimal
+msbuild ClearMeasure.sln /t:Restore;Clean;Build /v:minimal
