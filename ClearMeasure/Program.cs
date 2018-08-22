@@ -15,8 +15,8 @@ namespace ClearMeasure {
             //IEnumerable<string> items = counting.CountUpWithFizzAndBuzz(100);
 
             List<NumberWordPair> pairs = new List<NumberWordPair>() {
-                new NumberWordPair(0,"Fizz")
-                //new NumberWordPair(5,"Buzz")
+                new NumberWordPair(3,"Fizz"),
+                new NumberWordPair(5,"Buzz")
             };
 
             IEnumerable<string> items = counting.CountUpWithNumberWordPairs(pairs, 15);
